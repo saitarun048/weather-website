@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+    <body>
+        <div class="section1">
+            {{>header}}
+            <section class="section2">
+
+                <form class="setlocation">
+                    <input placeholder="set location" type="text" /><button>Seach</button>
+                </form>
+                <div class="weatherIcon"><i class="wi wi-day-cloudy"></i></div>
+
+                <div class="cliinfo">
+                    <div class="temp"><span></span></div>
+                    <div class="info">
+                        <div class="Condition"></div>
+                        <div class="place"></div>
+                    </div>
+                </div>
+                <div class="date"></div>
+            </section>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</body>
+
+</html>
